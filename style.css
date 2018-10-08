@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/H8WuRINimqur8ud/numbers-white-background_hirz2gth_thumbnail-small01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.calculator {
+  display: flex;
+  margin: 100px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 235px;
+  height: 380px;
+  background-color: rgba(50,50,50,0.9);
+  border-radius: 15px;
+  align-content: space-around; 
+}
+
+button {
+  width: 50px;
+  border-radius: 10px;
+  background: blue;
+  outline: none;
+  color: white;
+  font-family: 'SignikaNegative-Regular';
+  padding: 5px;
+  margin-bottom: 12px; 
+}
+
+.line {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+  border-radius: 5px;
+  text-align: right;
+  background-color: #CEC8B0;
+  outline: none;
+  font-size: 40px;
+  color: black; 
+}
+
+.left, .right, .middle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch; 
+}
